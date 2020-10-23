@@ -13,7 +13,6 @@ function dwarfName(foo) {
   
 }
 
-var calls = ["earth", "wind", "fire", "water"];
 
 function planetCalls(foo) {
 
@@ -29,9 +28,6 @@ function planetCalls(foo) {
   
   return capsArray;
 }
-
-planetCalls(calls);
-
 
 
 
@@ -51,5 +47,30 @@ var result;
   
   return result
 }
+
+
+
+function findTheCheese(foo) {
+
+  var i;
+  var foundCheese;
+  
+  for (i = 0; i < foo.length; i++) {
+  	if(foo[i] === "cheddar") {
+    	foundCheese = foo[i];
+      break;
+    } else if (foo[i] === "gouda") {
+    	foundCheese = foo[i];
+      break;
+    } else if (foo[i] === "camembert") {
+    	foundCheese = foo[i];
+      break;
+    }
+  }
+  
+  return foundCheese
+  
+}
+
 
 
