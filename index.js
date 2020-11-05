@@ -3,18 +3,17 @@ function dwarfName(foo) {
 	// Defining variable
 	var finalString;
   
-  // Loop through the array, assigning/adding each name to finalString
+
 	for(var i=0;i<foo.length;i++){
   	finalString =+ (i+1) + '. ' + foo[i] + ' ';
   }
   
-  // Return final string with all names
   return finalString;
   
 }
 
 
-function planetCalls(foo) {
+function planeteeCalls(foo) {
 
 	// Create storage variables
  	var capsCall;
@@ -28,7 +27,6 @@ function planetCalls(foo) {
   
   return capsArray;
 }
-
 
 
 
