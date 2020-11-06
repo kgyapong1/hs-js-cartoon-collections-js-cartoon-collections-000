@@ -63,11 +63,35 @@ function findTheCheese(foo) {
     } else if (foo[i] === "camembert") {
     	foundCheese = foo[i];
       break;
-    }
+    } else {
+    foundCheese = "no cheese"
+    break;
   }
-  
+}
   return foundCheese
   
+}
+
+
+function wordwithb(foo) {
+
+var bwords = []
+
+for (i=0; i< foo.length;i++) {
+  
+  if(foo[i].startsWith("b") {
+  
+  bwords.push(foo[i])
+  
+  }
+  
+  
+
+ //   " foo".startsWith("b")
+ }
+ 
+// "boo".startsWith("b")
+return bwords
 }
 
 
